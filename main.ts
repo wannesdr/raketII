@@ -38,6 +38,7 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, oth
 let alien: Sprite = null
 let projectile: Sprite = null
 let raket: Sprite = null
+scene.setBackgroundColor(9)
 effects.starField.startScreenEffect()
 info.setLife(3)
 info.setScore(0)
